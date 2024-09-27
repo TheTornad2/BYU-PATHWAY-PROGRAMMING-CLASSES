@@ -37,9 +37,18 @@ while True:
         )
 
 
-firstName = firstName.title()
-lastName = lastName.title()
+firstName = firstName.capitalize()
+lastName = lastName.capitalize()
+
+output = f"Your name is {firstName}, {firstName} is a great name."
 
 
-output = f"Your name is {lastName}, {firstName} {lastName}."
-print(output)
+response_1 = input(
+    f"My name is Jerry, a pleasure {firstName}.  What do you like to do?: "
+)
+
+response2 = input(
+    f"That's great to know!, I like to check my code and check the binaries, you know ceros and ones,  0001010101 0101010000010111011 and more, is it a little bit boring sometimes but... I can understand their meaning."
+)
+
+response_3 = input(f"Te gusta estar en BYU {firstName}?")

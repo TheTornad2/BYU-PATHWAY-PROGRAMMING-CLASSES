@@ -1,9 +1,11 @@
 """ 
+ 
  In this enhanced version, I have added several features to make the meal calculator more engaging and interactive:
  1. A random meal suggestion is provided to help users decide what to eat.
  2. Users can now add drinks and desserts to their order, allowing for a more realistic dining experience.
  3. A playful compliment is given based on the tip percentage, making the interaction more enjoyable.
  These features aim to enhance user experience while fulfilling all project requirements.
+ 
 """
 
 import random
@@ -79,7 +81,7 @@ tip = total * (tip_percentage / 100)
 # Calculate the final total including the tip
 final_total = total + tip
 
-# Compliment based on the tip amount
+
 if tip_percentage >= 20:
     compliment = "Wow, you're generous! You're making someone's day!"
 elif tip_percentage >= 10:
